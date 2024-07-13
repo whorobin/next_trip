@@ -194,18 +194,40 @@ nav a {
         0 6px 20px 0 rgba(76, 62, 209, 0.19);
     border-radius: 20px;
     align-items: center;
-    margin-top: 20pc;
+    margin-top: 10pc;
 }
 
 .heart {
     margin-left: 80px;
 }
 
+.trip-rome {
+    border-radius: 35px;
+    width: 280px;
+    height: 100px;
+    align-items: center;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 1050px;
+    padding: 30px;
+    background-color: #f7f5f6;
+    display: flex;
+}
+
+.trip-rome img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.rome-color {
+    color: rgb(162, 22, 190);
+}
+
 /* Testimonials */
 
 .testimonials {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -215,7 +237,7 @@ nav a {
 
 .tesi-work {
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 70px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
     color: #6e6c6c;
