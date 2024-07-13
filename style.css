@@ -21,13 +21,9 @@ body {
 
 /* navbar */
 nav {
-    /* 2 ta link pasahpashi nite chile */
     display: flex;
-    /* 2 ta lekha 2 side a nite chaile */
     justify-content: space-around;
-    /* 2 ta lekha align korte chaile */
     align-items: center;
-    /* margin : 0(top+buttom) 200(left+right) */
     margin: 0 200px;
 }
 
@@ -155,6 +151,13 @@ nav a {
 }
 
 /* Top Selling */
+
+.skills-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
 
 .top-icon {
     display: flex;
@@ -309,7 +312,6 @@ nav a {
     background-color: #f7f5f6;
     padding: 100px;
     margin-bottom: 150px;
-    /* border-radius: 20px; */
     border-top-left-radius: 150px;
 }
 
@@ -345,16 +347,6 @@ main {
 }
 
 
-/* skills related styles */
-
-
-.skills-container {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-}
-
 .top-work {
     display: flex;
     justify-content: space-evenly;
@@ -366,7 +358,6 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 150px;
-    /* text-align: center; */
 }
 
 .footer-container img {
@@ -376,20 +367,9 @@ main {
 .footer-icon {
     display: flex;
     gap: 30px;
-    /* margin-right: 5px; */
 }
 
 .copyright {
     text-align: center;
     margin-bottom: 40px;
 }
-
-
-
-/* Responsive part */
-/* modile devices  */
-/* @media screen and (max-width:576px) {
-    .banner {
-        flex-direction: column;
-    }
-} */
