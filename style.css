@@ -140,6 +140,67 @@ nav a {
     border-radius: 20px;
 }
 
+/* Fast and  */
+.title {
+    color: #6d6b6b;
+}
+
+.easy-work img {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.easy-work {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.easy-fast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.easy-content {
+    max-width: 600px;
+}
+
+.greece-img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.fast-img img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.fast-image img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.easy-going {
+    display: flex;
+}
+
+.easy-container {
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(79, 120, 167, 0.2),
+        0 6px 20px 0 rgba(76, 62, 209, 0.19);
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 20pc;
+}
+
+.heart {
+    margin-left: 80px;
+}
+
 /* Testimonials */
 
 .testimonials {
@@ -149,7 +210,20 @@ nav a {
 }
 
 .testimonials img {
-    width: 60px;
+    width: 80px;
+}
+
+.tesi-work {
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    color: #6e6c6c;
+}
+
+.test-title {
+    color: #6d6b6b;
+    font-size: 20px;
 }
 
 /* Airlines */
@@ -176,11 +250,16 @@ nav a {
 
 .sub-title {
     text-align: center;
-    background-color: #f8f0f7;
+    background-color: #f7f5f6;
     padding: 100px;
     margin-bottom: 150px;
     /* border-radius: 20px; */
     border-top-left-radius: 150px;
+}
+
+.sub-title-color {
+    color: #6e6c6c;
+    font-size: 30px;
 }
 
 .subscribe {
