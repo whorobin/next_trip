@@ -67,6 +67,13 @@ nav a {
     padding: 15px 35px;
 }
 
+.log-sin {
+    border-style: solid;
+    color: rgb(70, 69, 69);
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
 /* ---- header ---- */
 .header {
     background-repeat: no-repeat;
@@ -116,7 +123,36 @@ nav a {
     display: flex;
 }
 
+/* category  */
 
+.about {
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+.about-info {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.about-info img {
+    border-radius: 15px;
+    padding: 5px;
+    width: 320px;
+    height: 250px;
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: 480px;
+}
+
+.about-info {
+    text-align: center;
+}
 
 /* Top Selling */
 
@@ -129,9 +165,9 @@ nav a {
 }
 
 .top-img img {
-    width: 250px;
-    height: 350px;
-    border-top-left-radius: 25px;
+    width: 350px;
+    height: 450px;
+    border-top-left-radius: 30px;
     border-top-right-radius: 30px
 }
 
@@ -147,12 +183,12 @@ nav a {
 
 .easy-work img {
     margin-bottom: 20px;
-    width: 60%;
+    margin-right: 30px;
+    width: 80px;
 }
 
 .easy-work {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -266,8 +302,6 @@ nav a {
     width: 175px;
 }
 
-
-
 /* Subscribe */
 
 .sub-title {
@@ -296,6 +330,13 @@ nav a {
     width: 450px;
 }
 
+.sub-icon img {
+    width: 70px;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 250px;
+}
+
 
 /* main sectin style  */
 main {
@@ -303,37 +344,6 @@ main {
     margin: 0 auto;
 }
 
-.about {
-    /* padding: 10px; */
-    /* background-color: #FFF8F3; */
-    border-radius: 10px;
-    margin: 130px 0;
-}
-
-.about-info {
-    /* background-color: #ffffff; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    /* gap: 20px */
-}
-
-.about-info img {
-    /* border: 1px solid #ddd; */
-    border-radius: 15px;
-    padding: 5px;
-    width: 270px;
-}
-
-
-.about-info-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.about-info {
-    text-align: center;
-}
 
 /* skills related styles */
 
@@ -344,13 +354,6 @@ main {
     justify-content: space-evenly;
     gap: 40px;
 }
-
-/* .skill {
-    padding: 30px;
-    border-radius: 15px;
-    background-color: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-} */
 
 .top-work {
     display: flex;
@@ -378,4 +381,15 @@ main {
 
 .copyright {
     text-align: center;
+    margin-bottom: 40px;
 }
+
+
+
+/* Responsive part */
+/* modile devices  */
+/* @media screen and (max-width:576px) {
+    .banner {
+        flex-direction: column;
+    }
+} */
